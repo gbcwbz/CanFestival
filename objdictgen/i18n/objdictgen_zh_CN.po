@@ -29,10 +29,11 @@ msgid ""
 "Error:\n"
 msgstr ""
 "\n"
-"一个错误发生了。\n"
+"出错了。\n"
 "\n"
-"点击确定以保存一个错误报告。\n"
+"点击确定保存错误报告。\n"
 "\n"
+"恳请将此文件发送到"
 "edouard.tisserant@gmail.com\n"
 "\n"
 "\n"
@@ -48,8 +49,8 @@ msgid ""
 msgstr ""
 "\n"
 "域变量未初始化\n"
-"指标： 0x%04X\n"
-"子指标：: 0x00"
+"索引： 0x%04X\n"
+"子索引：: 0x00"
 
 #: networkedit.py:34
 msgid ""
@@ -57,7 +58,7 @@ msgid ""
 "Usage of networkedit.py :"
 msgstr ""
 "\n"
-"networkedit.py 的使用："
+"networkedit.py 用法："
 
 #: objdictedit.py:33
 msgid ""
@@ -65,7 +66,7 @@ msgid ""
 "Usage of objdictedit.py :"
 msgstr ""
 "\n"
-"objdictedit.py的使用："
+"objdictedit.py 用法："
 
 #: objdictgen.py:30
 msgid ""
@@ -73,12 +74,12 @@ msgid ""
 "Usage of objdictgen.py :"
 msgstr ""
 "\n"
-"objdictgen.py的使用："
+"objdictgen.py 用法："
 
 #: networkedit.py:938
 #: objdictedit.py:991
 msgid " : "
-msgstr "："
+msgstr " ："
 
 #: commondialogs.py:560
 #: commondialogs.py:1209
@@ -100,7 +101,7 @@ msgstr "必须为整数！"
 #: objdictedit.py:537
 #, python-format
 msgid " possibly defined %d times"
-msgstr " 可能定义 %d 时间"
+msgstr " 可能定义了 %d 次"
 
 #: gen_cfile.py:77
 #: gen_cfile.py:81
@@ -111,7 +112,7 @@ msgstr "！！！ %s 不是一个CanFestival的有效类型。"
 #: gen_cfile.py:102
 #, python-format
 msgid "!!! Datatype with value \"0x%4.4X\" isn't defined in CanFestival."
-msgstr "!!! 带值的数据类型 \"0x%4.4X\" 在CanFestival中未定义。"
+msgstr "!!!  值为 \"0x%4.4X\" 的数据类型在 CanFestival 中未定义。"
 
 #: nodelist.py:158
 #, python-format
@@ -126,12 +127,12 @@ msgstr "\"%s\" 文件夹不存在"
 #: eds_utils.py:232
 #, python-format
 msgid "\"%s\" is not a valid CPJ line"
-msgstr "\"%s\" 不是有效的 CPJ 线"
+msgstr "\"%s\" 不是有效的 CPJ 行"
 
 #: eds_utils.py:367
 #, python-format
 msgid "\"%s\" is not a valid EDS line"
-msgstr "\"%s\" 不是有效的 EDS 线"
+msgstr "\"%s\" 不是有效的 EDS 行"
 
 #: objdictedit.py:789
 #, python-format
@@ -147,13 +148,13 @@ msgstr "\"%s\" 不是有效的文件夹！"
 #: eds_utils.py:333
 #, python-format
 msgid "\"%s\" is not a valid formula for attribute \"%s\" of section \"[%s]\""
-msgstr "\"%s\" 不是一个有效的公式用于属性 \"%s\" 段的 \"[%s]\""
+msgstr "\"%s\" 对于属性 \"%s\" 段 \"[%s]\" 不是一个有效的公式"
 
 #: eds_utils.py:177
 #: eds_utils.py:339
 #, python-format
 msgid "\"%s\" is not a valid value for attribute \"%s\" of section \"[%s]\""
-msgstr "\"%s\" 不是一个有效的公式用于属性 \"%s\" 段的 \"[%s]\""
+msgstr "\"%s\" 对于属性 \"%s\" 段 \"[%s]\" 不是一个有效的值"
 
 #: commondialogs.py:1508
 #, python-format
@@ -163,16 +164,16 @@ msgstr "\"%s\" 不是有效值！"
 #: eds_utils.py:242
 #, python-format
 msgid "\"Node%dPresent\" keyname in \"[%s]\" section is missing"
-msgstr "\"节点%d父目录\" 关键名在 \"[%s]\" 段消失"
+msgstr "\"Node%dPresent\" 关键字在 \"[%s]\" 段中缺失"
 
 #: eds_utils.py:235
 #, python-format
 msgid "\"Nodes\" keyname in \"[%s]\" section is missing"
-msgstr "\"节点\" 关键名在 \"[%s]\" 段消失"
+msgstr "\"Nodes\" 关键字在 \"[%s]\" 段中缺失"
 
 #: eds_utils.py:238
 msgid "\"Nodes\" value not corresponding to number of nodes defined"
-msgstr "\"节点\" 值没有相应的被定义的一些节点"
+msgstr "\"Nodes\" 值和已定义的节点个数不对应"
 
 #: eds_utils.py:278
 #: eds_utils.py:291
@@ -188,13 +189,13 @@ msgid ""
 "Would you like to replace it ?"
 msgstr ""
 "%s\n"
-"你希望替换它吗？"
+"是否替换？"
 
 #: networkedit.py:698
 #: objdictedit.py:595
 #, python-format
 msgid "%s Profile"
-msgstr "%s "
+msgstr "%s Profile"
 
 #: objdictgen.py:66
 #, python-format
@@ -210,7 +211,7 @@ msgstr "%s 不是有效的文件夹！"
 #: objdictedit.py:542
 #, python-format
 msgid "%s: %s entry of struct %s%s."
-msgstr "%s： %s 结构的入口 %s%s。"
+msgstr "%s： %s 结构的条目 %s%s。"
 
 #: eds_utils.py:384
 #: eds_utils.py:392
@@ -224,7 +225,7 @@ msgstr "，"
 #: objdictedit.py:969
 #: objdictedit.py:970
 msgid ",   "
-msgstr "，"
+msgstr "， "
 
 #: commondialogs.py:367
 #: commondialogs.py:562
@@ -240,7 +241,7 @@ msgstr "。"
 
 #: commondialogs.py:1232
 msgid "A Node with this ID already exist in the network!"
-msgstr "一个有ID的节点已存在于网络！"
+msgstr "网络中已存在此 ID 的节点！"
 
 #: commondialogs.py:564
 msgid "A type must be selected!"
@@ -265,7 +266,7 @@ msgstr "添加"
 
 #: commondialogs.py:275
 msgid "Add Map Variable"
-msgstr "添加地图变量"
+msgstr "添加映射变量"
 
 #: networkedit.py:209
 msgid "Add Slave Node"
@@ -277,16 +278,16 @@ msgstr "添加用户类型"
 
 #: commondialogs.py:1152
 msgid "Add a slave to nodelist"
-msgstr "添加从到节点列表"
+msgstr "添加从节点至节点列表"
 
 #: subindextable.py:338
 #: subindextable.py:853
 msgid "Add subindexes"
-msgstr "添加子指标"
+msgstr "添加子索引"
 
 #: subindextable.py:346
 msgid "Add to DCF"
-msgstr "添加至DCF"
+msgstr "添加至 DCF"
 
 #: objdictgen.py:73
 msgid "All done"
@@ -300,7 +301,7 @@ msgstr "要求一个整数！"
 #: eds_utils.py:776
 #, python-format
 msgid "Array or Record entry 0x%4.4X must have a \"SubNumber\" attribute"
-msgstr "阵列或记录入口 0x%4.4X 必须有一个 \"子数\"属性"
+msgstr "数组或记录条目 0x%4.4X 必须有一个 \"SubNumber\" 属性"
 
 #: eds_utils.py:386
 #: eds_utils.py:394
@@ -316,11 +317,11 @@ msgstr "属性 %s 是"
 
 #: objdictedit.py:196
 msgid "Build Dictionary\tCTRL+B"
-msgstr "建立词典\tCTRL+B"
+msgstr "生成对象字典\tCTRL+B"
 
 #: networkedit.py:214
 msgid "Build Master Dictionary"
-msgstr "建立主词典"
+msgstr "生成主对象字典"
 
 #: networkedit.py:280
 #: objdictedit.py:273
@@ -352,7 +353,7 @@ msgstr "选择一个项目"
 
 #: networkedit.py:568
 msgid "Choose a slave to remove"
-msgstr "选择一个从移除"
+msgstr "选择要移除的从站"
 
 #: commondialogs.py:1240
 msgid "Choose an EDS file"
@@ -365,7 +366,7 @@ msgstr "关闭\tCTRL+W"
 
 #: objdictedit.py:482
 msgid "Close Application"
-msgstr "关闭应用"
+msgstr "关闭应用程序"
 
 #: objdictedit.py:743
 msgid "Close File"
@@ -377,7 +378,7 @@ msgstr "关闭项目"
 
 #: nodemanager.py:220
 msgid "Couldn't find DS-302 in 'config' folder!"
-msgstr "不能在 “config” 文件夹中找到 DS-302 "
+msgstr "在 “config” 文件夹中无法找到 DS-302 "
 
 #: commondialogs.py:893
 msgid "Create a new Node"
@@ -385,7 +386,7 @@ msgstr "创建一个新节点"
 
 #: commondialogs.py:140
 msgid "Current Profile Indexes:"
-msgstr "当前Profile指标："
+msgstr "当前 Profile 索引："
 
 #: networkedit.py:232
 #: objdictedit.py:225
@@ -419,7 +420,7 @@ msgstr "删除"
 #: subindextable.py:340
 #: subindextable.py:874
 msgid "Delete subindexes"
-msgstr "删除子指标"
+msgstr "删除子索引"
 
 #: commondialogs.py:726
 #: commondialogs.py:982
@@ -429,7 +430,7 @@ msgstr "描述："
 #: eds_utils.py:698
 #, python-format
 msgid "Domain entry 0x%4.4X DataType must be 0xF(DOMAIN) if defined"
-msgstr "域入口 0x%4.4X 数据类型必须是 0xF(DOMAIN) 如果已定义"
+msgstr "如果已定义,域条目 0x%4.4X 数据类型必须是 0xF(DOMAIN)"
 
 #: commondialogs.py:1202
 msgid "EDS File"
@@ -471,7 +472,7 @@ msgstr "编辑"
 #: objdictedit.py:858
 #, python-format
 msgid "Edit %s Profile"
-msgstr "Edit %s Profile"
+msgstr "编辑 %s Profile"
 
 #: commondialogs.py:112
 msgid "Edit Communication Profile"
@@ -479,7 +480,7 @@ msgstr "编辑 Communication Profile"
 
 #: commondialogs.py:1444
 msgid "Edit DCF Entry Values"
-msgstr "编辑DCF输入值"
+msgstr "编辑 DCF 条目值"
 
 #: networkedit.py:801
 #: objdictedit.py:849
@@ -493,11 +494,11 @@ msgstr "编辑 DS-302 Profile"
 
 #: commondialogs.py:965
 msgid "Emergency support"
-msgstr "紧急支援"
+msgstr "支持 Emergency"
 
 #: commondialogs.py:1448
 msgid "Entry Values:"
-msgstr "输入值："
+msgstr "条目值："
 
 #: commondialogs.py:368
 #: commondialogs.py:566
@@ -538,7 +539,7 @@ msgid ""
 "Error on section \"[%s]\":\n"
 "%s incompatible with DataType"
 msgstr ""
-"段有错误 \"[%s]\":\n"
+"段 \"[%s]\" 中有错误:\n"
 "%s 与数据类型不符合"
 
 #: eds_utils.py:387
@@ -547,8 +548,8 @@ msgid ""
 "Error on section \"[%s]\":\n"
 "%s required for a %s entry"
 msgstr ""
-"段有错误 \"[%s]\":\n"
-"%s 所需一个 %s 入口"
+"段 \"[%s]\" 中有错误:\n"
+"%s 是必须的对于 %s 条目"
 
 #: eds_utils.py:395
 #, python-format
@@ -556,13 +557,13 @@ msgid ""
 "Error on section \"[%s]\":\n"
 "%s unsupported for a %s entry"
 msgstr ""
-"段有错误 \"[%s]\":\n"
-"%s 不受支持 %s 入口"
+"段 \"[%s]\" 中有错误:\n"
+"%s 在 %s 条目中不支持"
 
 #: networkedit.py:200
 #: objdictedit.py:199
 msgid "Exit"
-msgstr "出口"
+msgstr "退出"
 
 #: objdictedit.py:805
 #: objdictedit.py:829
@@ -571,7 +572,7 @@ msgstr "导出成功"
 
 #: objdictedit.py:194
 msgid "Export to EDS file"
-msgstr "导出成EDS文件"
+msgstr "导出为 EDS 文件"
 
 #: nodelist.py:188
 msgid "Fail to save Master Node"
@@ -593,13 +594,13 @@ msgstr "文件"
 #: commondialogs.py:1212
 #, python-format
 msgid "Form isn't complete. %s must be filled!"
-msgstr "形式不完整。%s 必须补充！"
+msgstr "表格不完整。 %s 必须填写！"
 
 #: commondialogs.py:368
 #: commondialogs.py:566
 #, python-format
 msgid "Form isn't valid. %s"
-msgstr "形式无效。%s"
+msgstr "表格无效。%s"
 
 #: commondialogs.py:960
 msgid "Generate SYNC"
@@ -608,11 +609,11 @@ msgstr "生成 SYNC"
 #: subindextable.py:806
 #, python-format
 msgid "Give a new name for index 0x%04X"
-msgstr "为指标重命名为 0x%04X"
+msgstr "为索引 0x%04X 去一个新的名字"
 
 #: subindextable.py:443
 msgid "Have Callbacks"
-msgstr "有回访"
+msgstr "有回调"
 
 #: commondialogs.py:945
 msgid "Heartbeat"
@@ -638,27 +639,27 @@ msgstr "导入成功"
 #: commondialogs.py:353
 #: commondialogs.py:1287
 msgid "Index"
-msgstr "指标"
+msgstr "索引"
 
 #: nodemanager.py:627
 #, python-format
 msgid "Index 0x%04X already defined!"
-msgstr "指标 0x%04X 已定义！"
+msgstr "索引 0x%04X 已定义！"
 
 #: nodemanager.py:629
 #, python-format
 msgid "Index 0x%04X isn't a valid index for Map Variable!"
-msgstr "指标 0x%04X 不是一个地图变量的有效指标！"
+msgstr "索引 0x%04X 不是有效映射变量！"
 
 #: commondialogs.py:279
 msgid "Index:"
-msgstr "指标："
+msgstr "索引："
 
 #: networkedit.py:630
 #: objdictedit.py:527
 #, python-format
 msgid "Index: 0x%04X"
-msgstr "指标：0x%04X"
+msgstr "索引：0x%04X"
 
 #: objdictedit.py:781
 #: objdictedit.py:805
@@ -675,13 +676,13 @@ msgstr "信息"
 #: eds_utils.py:360
 #, python-format
 msgid "Invalid value \"%s\" for keyname \"%s\" of section \"[%s]\""
-msgstr "无效值 \"%s\" 属于关键名 \"%s\" 段的 \"[%s]\""
+msgstr "值 \"%s\" 对于关键字 \"%s\" 段 \"[%s]\" 无效"
 
 #: eds_utils.py:228
 #: eds_utils.py:357
 #, python-format
 msgid "Keyname \"%s\" not recognised for section \"[%s]\""
-msgstr "关键名 \"%s\" 不被段识别 \"[%s]\""
+msgstr "关键字 \"%s\" 对于段 \"[%s]\" 无法识别"
 
 #: commondialogs.py:552
 msgid "Length"
@@ -694,13 +695,13 @@ msgstr "长度："
 #: networkedit.py:636
 #: objdictedit.py:533
 msgid "Mandatory"
-msgstr "强制"
+msgstr "必须"
 
 #: networkedit.py:259
 #: objdictedit.py:252
 #: subindextable.py:65
 msgid "Map Variable"
-msgstr "地图变量"
+msgstr "映射变量"
 
 #: commondialogs.py:546
 msgid "Maximum"
@@ -758,7 +759,7 @@ msgstr "否"
 #: networkedit.py:880
 #: objdictedit.py:936
 msgid "No map variable index left!"
-msgstr "无剩余地图变量指标！"
+msgstr "无剩余映射变量索引！"
 
 #: nodelist.py:235
 #, python-format
@@ -767,7 +768,7 @@ msgstr "节点 0x%2.2X 不存在 "
 
 #: commondialogs.py:940
 msgid "Node Guarding"
-msgstr "节点护卫"
+msgstr "节点保护"
 
 #: commondialogs.py:760
 #: commondialogs.py:1036
@@ -788,12 +789,12 @@ msgstr "节点信息"
 #: commondialogs.py:755
 #: commondialogs.py:1031
 msgid "Node name can't be undefined or start with a digit and must be composed of alphanumerical characters or underscore!"
-msgstr "节点名称不能是未定义的或以数字开头的，必须由字母数字混合字符或下划线组成！"
+msgstr "节点名称不能是未定义或以数字开头的，必须由字母数字或下划线组成！"
 
 #: nodelist.py:165
 #, python-format
 msgid "Node with \"0x%2.2X\" ID doesn't exist"
-msgstr "节点ID为 \"0x%2.2X\" 不存在"
+msgstr "节点ID \"0x%2.2X\" 不存在"
 
 #: commondialogs.py:935
 #: commondialogs.py:1010
@@ -801,7 +802,7 @@ msgstr "节点ID为 \"0x%2.2X\" 不存在"
 #: commondialogs.py:1056
 #: commondialogs.py:1096
 msgid "None"
-msgstr "毫无"
+msgstr "无"
 
 #: commondialogs.py:358
 msgid "Number"
@@ -809,11 +810,11 @@ msgstr "数字"
 
 #: subindextable.py:852
 msgid "Number of subindexes to add:"
-msgstr "一些子指标需要添加："
+msgstr "需要添加的子索引数："
 
 #: subindextable.py:873
 msgid "Number of subindexes to delete:"
-msgstr "一些子指标需要删除："
+msgstr "需要删除的子索引数："
 
 #: commondialogs.py:291
 msgid "Number:"
@@ -874,7 +875,7 @@ msgstr "PDO 接收"
 #: objdictedit.py:248
 #: subindextable.py:64
 msgid "PDO Transmit"
-msgstr "PDO传输"
+msgstr "PDO 发送"
 
 #: objdictgen.py:58
 msgid "Parsing input file"
@@ -888,7 +889,7 @@ msgstr "请在您的浏览器上输入下面的地址：%s "
 
 #: commondialogs.py:116
 msgid "Possible Profile Indexes:"
-msgstr "可能的 Profile 指标："
+msgstr "可能的 Profile 索引："
 
 #: nodemanager.py:218
 msgid "Problem with DS-302! Syntax Error."
@@ -928,7 +929,7 @@ msgstr "移除从节点"
 
 #: networkedit.py:568
 msgid "Remove slave"
-msgstr "移除从"
+msgstr "移除从站"
 
 #: subindextable.py:359
 msgid "Rename"
@@ -936,7 +937,7 @@ msgstr "重命名"
 
 #: subindextable.py:807
 msgid "Rename an index"
-msgstr "重命名一个指标"
+msgstr "重命名一个索引"
 
 #: networkedit.py:253
 #: objdictedit.py:246
@@ -967,7 +968,7 @@ msgstr "保存配置"
 #: eds_utils.py:311
 #, python-format
 msgid "Section \"[%s]\" is unrecognized"
-msgstr "段 \"[%s]\" 不能识别"
+msgstr "无法识别 \"[%s]\" 段"
 
 #: commondialogs.py:1287
 msgid "Size"
@@ -975,11 +976,11 @@ msgstr "尺寸"
 
 #: commondialogs.py:1198
 msgid "Slave Name"
-msgstr "从名字"
+msgstr "从站名字"
 
 #: commondialogs.py:1156
 msgid "Slave Name:"
-msgstr "从名字："
+msgstr "从站名字："
 
 #: commondialogs.py:1200
 msgid "Slave Node ID"
@@ -1003,13 +1004,13 @@ msgstr "储存 EDS"
 
 #: commondialogs.py:1287
 msgid "Subindex"
-msgstr "子指标"
+msgstr "子索引"
 
 #: networkedit.py:631
 #: objdictedit.py:528
 #, python-format
 msgid "Subindex: 0x%02X"
-msgstr "子指标： 0x%02X"
+msgstr "子索引： 0x%02X"
 
 #: nodemanager.py:264
 msgid ""
@@ -1017,17 +1018,17 @@ msgid ""
 "Bad OD Profile file!"
 msgstr ""
 "语法错误\n"
-"错的OD配置文件！"
+"OD配置文件错误！"
 
 #: networkedit.py:521
 #: objdictedit.py:482
 #: objdictedit.py:743
 msgid "There are changes, do you want to save?"
-msgstr "有改动，你想保存吗？"
+msgstr "已更改，是否保存？"
 
 #: nodemanager.py:659
 msgid "Too many User Types have already been defined!"
-msgstr "太多用户类型已被定义！"
+msgstr "用户类型定义过多！"
 
 #: subindextable.py:46
 msgid "True"
@@ -1073,13 +1074,13 @@ msgid ""
 "Unable to load CPJ file\n"
 "%s"
 msgstr ""
-"无法载入CPJ文件\n"
+"无法加载CPJ文件\n"
 "%s"
 
 #: nodemanager.py:288
 #, python-format
 msgid "Unable to load file \"%s\"!"
-msgstr "无法载入文件 \"%s\"！"
+msgstr "无法加载文件 \"%s\"！"
 
 #: commondialogs.py:321
 msgid "Undefined"
@@ -1139,16 +1140,16 @@ msgstr "文件"
 #: networkedit.py:917
 #: objdictedit.py:970
 msgid "function : "
-msgstr "功能："
+msgstr "函数："
 
 #: networkedit.py:917
 #: objdictedit.py:970
 msgid "line : "
-msgstr "线："
+msgstr "行："
 
 #: commondialogs.py:648
 msgid "master"
-msgstr "主控"
+msgstr "主站"
 
 #: subindextable.py:82
 msgid "name"
@@ -1161,11 +1162,11 @@ msgstr "保存"
 #: commondialogs.py:648
 #: commondialogs.py:1007
 msgid "slave"
-msgstr "从"
+msgstr "从站"
 
 #: subindextable.py:82
 msgid "subindex"
-msgstr "子指标"
+msgstr "子索引"
 
 #: subindextable.py:82
 msgid "type"
